@@ -1,0 +1,5 @@
+service: user-api
+replicas: 0
+image: badimage
+env:
+  db_url: wrong
