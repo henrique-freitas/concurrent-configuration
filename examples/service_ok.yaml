@@ -1,0 +1,6 @@
+service: user-api
+replicas: 3
+image: myregistry.com/user-api:1.4.2
+env:
+  DATABASE_URL: postgres://db.internal:5432/users
+  REDIS_URL: redis://cache.internal:6379
